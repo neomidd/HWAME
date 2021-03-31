@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+        nav{
+            width: 100%;
+            height: 80px;
+            background-color: sienna;
+            display: flex;
+            position: relative;
+        }
+        
+
+        .menu{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            position: absolute;
+            left: 15px;
+            top: calc(50% - 25px);
+            color: seashell;
+        }
+        .menu:hover {
+            width: 120px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .menu:hover .list{
+            display: block;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            background-color: slateblue;
+            position: absolute;
+            left: calc(50% - 25px);
+            top: calc(50% - 25px);
+        }
+        .list{
+            display: none;
+        }
+
+        main{
+            width: 100%;
+        }
+
+        .container{
+            width: 100%;
+        }
+
+        .tea{
+            width: 500px;
+            height: 500px;
+            display: table;
+            position:relative;
+            background-image: url(https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/129962891_1332366177100604_8407128425419535953_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=qpA4Z1-POSkAX_ayC4S&_nc_ht=scontent.frmq2-2.fna&oh=1dcab591fe5483150be82777ba24a936&oe=60877530);
+            background-position: center;
+            background-size: contain;
+            
+        }
+        .dog{
+            background-attachment: fixed;
+            width: 500px;
+            height: 500px;
+            background-image: url(https://scontent.frmq2-1.fna.fbcdn.net/v/t1.6435-9/123138035_1297748403895715_4840978642876572001_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=bmNs0gw_sCgAX8uCoGD&_nc_ht=scontent.frmq2-1.fna&oh=db5f6c5495a206feb0eabb3029955380&oe=60880DB8);
+            background-position: center;
+            background-size: contain;   
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 100px;         
+        }
+
+        .boxX{
+            width: 500px;
+            height: 200px;
+            background-color: slateblue;
+            display: flex;
+            flex-direction: column;
+            font-size: 72px;
+        }
+        .boxY{
+            width: 500px;
+            height: 200px;
+            background-color: springgreen;
+            display: flex;
+            flex-direction: column;
+            font-size: 36px;
+        }
+        .boxZ{
+            width: 500px;
+            height: 200px;
+            background-color: salmon;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+        }
+        .boxA{
+            width: 500px;
+            height: 200px;
+            background-color: wheat;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="list">選項A</div>
+            <div class="list">選項B</div>
+            <div class="list">選項C</div>
+        </div>
+        <img src="" class="logo" alt="">
+    </nav>
+    <main>
+        <div class="container">
+    <div class="dog" id="anchor2"></div>
+            <div class="boxX">華美茗茶</div>
+            <div class="boxY">自民國78年開始在彰化市營業</div>
+            <div class="boxZ">在鹿谷杉林溪羊仔彎擁有自己的茶園,是茶農直營有信譽的好店。茶葉本身使用有機肥,天然甘香沁人心田。茶行本身是華美茗茶老闆娘自民國78年開始經營,茶葉由身為茶農的茶農舅舅在鹿谷鄉杉林溪種植數十年的烏龍種類茶樹,泡出來的茶水喉韻甘甜,有著令人回味的風味,吸引不少愛好此道的死忠顧客支持。如果您喜歡自然不做作、茶葉原來真正甘香風味的話,華美茗茶的杉林溪烏龍青茶,會是值得您細細品味的好味道。</div>
+
+        </div>
+    </main>
+    
+    <a href="anchor1">錨點練習</a>
+
+    <div class="tea" id="anchor1"></div>
+            <P></P>
+            <div class="boxA">關於茶農茶葉種植甘苦談,茶葉這種東西,需要茶農一年到頭持續種植,一年四季每一季收成一次,每一次收成後,四斤茶濕才能做出一斤茶乾(也就是茶青),中途需要日光萎凋、室內萎凋攪拌、殺菁、揉捻、初乾、熱團揉、再乾、烘焙,才能做出一斤實實在在道地的台灣烏龍青茶。在這個過程中,包括聘請人工採茶在內,華美茗茶數十年如一日,持續遵守傳統久經考驗、千錘百鍊的製茶過程。</div>
+            <P></P>
+</body>
+</html>
